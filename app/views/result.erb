@@ -5,16 +5,16 @@
   <% neighborhood = "chelsea" %>
 
 <% elsif (@zipcode == "10010" || @zipcode == "10016"|| @zipcode == "10017" ||@zipcode == "10022") %>
-  <% neighborhood = "Gramercy Park/ Murray Hill" %>
+  <% neighborhood = "gramercy Park/ murray hill" %>
 
 <% elsif (@zipcode == "10012" ||  @zipcode == "10013" || @zipcode == "10014")
-  neighborhood = "Soho/ Greenwich Village"%>
+  neighborhood = "soho greenwich"%>
 
 <% elsif (@zipcode == "10004" || @zipcode == "10005" || @zipcode == "10006" || @zipcode == "10007" || @zipcode == "10038" || @zipcode == "10280")
-  neighborhood = "Lower Manhattan"%>
+  neighborhood = "lower manhattan"%>
 
 <% elsif (@zipcode == "10021" || @zipcode == "10028" || @zipcode == "10044" || @zipcode == "10065" || @zipcode == "10075" || @zipcode == "10128")
-  neighborhood = "Upper East Side"%>
+  neighborhood = "upper east side"%>
 <% end %>
 
 <h1><%="#{neighborhood}"%></h1>
