@@ -13,8 +13,12 @@ class ApplicationController < Sinatra::Base
     erb :help
   end
   
-  get "/about" do
+  get "/about.html" do
     erb :about
+  end
+  
+  get "the_team.html" do 
+    erb :meet
   end
   
   get '/result' do
